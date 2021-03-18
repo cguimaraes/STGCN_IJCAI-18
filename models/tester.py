@@ -9,7 +9,7 @@ from data_loader.data_utils import gen_batch
 from utils.math_utils import evaluation
 from os.path import join as pjoin
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 import time
 

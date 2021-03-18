@@ -7,8 +7,7 @@
 
 from models.layers import *
 from os.path import join as pjoin
-import tensorflow as tf
-
+import tensorflow.compat.v1 as tf
 
 def build_model(inputs, n_his, Ks, Kt, blocks, keep_prob):
     '''
